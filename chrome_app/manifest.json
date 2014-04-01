@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Hello World",
+  "name": "Pedaluino",
   "version": "2",
   "minimum_chrome_version": "23",
   "icons": {
@@ -11,5 +11,9 @@
     "background": {
       "scripts": ["main.js"]
     }
-  }
+  },
+  "permissions": [
+    "serial",
+    "audioCapture"
+  ]
 }
